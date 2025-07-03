@@ -33,3 +33,22 @@
     margin-right: 15vh;
     font-size: 2vh  ;
 }
+
+.bg2{
+    position: absolute;
+
+    width: 110%;
+    height: 100vh;
+    top: -10px;
+    /* right: -10px; */ 
+    left: -10px;
+    /* max-height: calc(340px*640px);  
+    max-width: calc(340px*640px); */
+    background-image: url(tsuki.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    margin-top: 110vh;
+
+} 
