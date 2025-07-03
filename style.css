@@ -2,6 +2,10 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 0.684);
+    text-align: justify;
+    
 }
 
 .bg{
@@ -24,6 +28,5 @@
     margin-top: 25vh;
     margin-left: 10vh;
     margin-right: 10vh;
-    color: red;
     font-size: 2vh  ;
 }
