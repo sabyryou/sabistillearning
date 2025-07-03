@@ -14,14 +14,14 @@
     margin: 0%;
     padding-right: 100%;
     min-height: 100vh;
-    filter: brightness(50%);
+    filter:brightness(20%) blur(0.5px);
     position: absolute;
 
 }
 
 .halaman1 {
     position: absolute;
-    margin-top: 35vh;
+    margin-top: 25vh;
     margin-left: 10vh;
     margin-right: 10vh;
     color: red;
