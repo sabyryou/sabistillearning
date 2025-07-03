@@ -3,30 +3,32 @@
     padding: 0%;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
-    color: rgba(255, 255, 255, 0.684);
+    color: rgba(255, 255, 255, 0.821);
     text-align: justify;
     
 }
 
 .bg{
-    width: 100%;
-    max-width: 300px;
+    position: absolute;
+    width: 110%;
+    height: 100vh;
+    top: -10px;
+
+    left: -10px;
+
     background-image: url(bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    margin: 0%;
-    padding-right: 100%;
-    min-height: 100vh;
-    filter:brightness(20%) blur(0.5px);
-    position: absolute;
+    filter:brightness(40%) blur(1.5px);
+    margin: 0;
 
 }
 
 .halaman1 {
     position: absolute;
-    margin-top: 25vh;
-    margin-left: 10vh;
-    margin-right: 10vh;
+    margin-top: 15vh;
+    margin-left: 5vh;
+    margin-right: 15vh;
     font-size: 2vh  ;
 }
