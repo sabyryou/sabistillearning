@@ -3,7 +3,7 @@
     padding: 0%;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
-    color: rgba(255, 255, 255, 0.821);
+    color: rgba(255, 255, 255, 0.895);
     text-align: justify;
     
 }
@@ -13,14 +13,15 @@
     width: 110%;
     height: 100vh;
     top: -10px;
-
+    /* right: -10px; */ 
     left: -10px;
-
+    /* max-height: calc(340px*640px);  
+    max-width: calc(340px*640px); */
     background-image: url(bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    filter:brightness(40%) blur(1.5px);
+    filter:brightness(40%) blur(1px);
     margin: 0;
 
 }
@@ -28,7 +29,7 @@
 .halaman1 {
     position: absolute;
     margin-top: 15vh;
-    margin-left: 5vh;
+    margin-left: 7vh;
     margin-right: 15vh;
     font-size: 2vh  ;
 }
