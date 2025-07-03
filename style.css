@@ -1,8 +1,12 @@
 .halaman1{
     background-image: url(salak.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 100%;
+    height: 100%;
+    margin: 0;
     width: 100%;
     max-width: 600px;
-    position: absolute;
-
+    
 }
