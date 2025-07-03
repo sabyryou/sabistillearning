@@ -1,12 +1,29 @@
-.halaman1{
-    background-image: url(salak.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 100%;
-    height: 100%;
-    margin: 0;
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.bg{
     width: 100%;
-    max-width: 600px;
-    
+    max-width: 300px;
+    background-image: url(bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0%;
+    padding-right: 100%;
+    min-height: 100vh;
+    filter: brightness(50%);
+    position: absolute;
+
+}
+
+.halaman1 {
+    position: absolute;
+    margin-top: 35vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    color: red;
+    font-size: 2vh  ;
 }
