@@ -5,7 +5,12 @@
     font-family: 'Times New Roman', Times, serif;
     color: rgba(255, 255, 255, 0.895);
     text-align: justify;
+
     
+}
+
+body{
+    background-color: rgb(0, 0, 0);
 }
 
 .bg{
@@ -17,22 +22,15 @@
     left: -10px;
     /* max-height: calc(340px*640px);  
     max-width: calc(340px*640px); */
-    background-image: url(bg.png);
+    background-image: url(tsuki.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    filter:brightness(40%) blur(1px);
+   
     margin: 0;
 
 }
 
-.halaman1 {
-    position: absolute;
-    margin-top: 15vh;
-    margin-left: 7vh;
-    margin-right: 15vh;
-    font-size: 2vh  ;
-}
 
 .bg2{
     position: absolute;
@@ -44,11 +42,42 @@
     left: -10px;
     /* max-height: calc(340px*640px);  
     max-width: calc(340px*640px); */
-    background-image: url(tsuki.jpg);
+    background-image: url(gelang.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
+     filter:brightness(65%) blur(1px);
     margin-top: 110vh;
 
 } 
+
+.bg3{
+    position: absolute;
+
+    width: 110%;
+    height: 100vh;
+    top: -10px;
+    /* right: -10px; */ 
+    left: -10px;
+    /* max-height: calc(340px*640px);  
+    max-width: calc(340px*640px); */
+    background-image: url(salak.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+     filter:brightness(50%) blur(1px);
+    margin-top: 240vh;
+    margin-bottom: 100vh;
+
+} 
+
+
+
+
+.halaman1 {
+    position: absolute;
+    margin-top: 15vh;
+    margin-left: 7vh;
+    margin-right: 15vh;
+    font-size: 3vh  ;
+}
