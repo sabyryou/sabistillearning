@@ -21,7 +21,7 @@ body{
     left: -10px;
     /* max-height: calc(340px*640px);  
     max-width: calc(340px*640px); */
-    background-image: url(tsuki.jpg);
+    background-image: url();
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -71,6 +71,26 @@ body{
 
 } 
 
+.bg4{
+    position: absolute;
+
+    width: 110%;
+    height: 70vh;
+    top: -40px;
+
+    left: 10px;
+    /* max-height: calc(340px*640px);  
+    max-width: calc(340px*640px); */
+    background-image: url(thumbs-up.jpg );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    scale: 110%;
+    filter: brightness(40%);
+    margin-top: 560vh;
+    margin-bottom: 100%;
+
+} 
 
 
 
@@ -80,20 +100,28 @@ body{
     margin-left: 7vh;
     margin-right: 15vh;
     font-size: 3vh  ;
+    padding-bottom: 210vh;
 }
 
-.credit {
-    position: absolute;
-    margin-top: 340vh;
-    padding-bottom: 10vh;
-}
+.tombol {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    font-size: 0.5vh;
+    background: black;
+    opacity: 85%;
 
-button{
-    background: none;
-    border: 0;
+
+}
+.tombol h1{
+    border: 0.5px solid white;
+    padding: 0.3vh;
+    max-width: 5vh;
 }
 
 .urnotalone p{
+    position: fixed;
+    margin-top: 500vh;
     font-size: 30px;
     color: white;
 }

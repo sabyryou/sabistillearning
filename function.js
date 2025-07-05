@@ -1,9 +1,12 @@
 function tampikanui(pisanggoreng) {
-    const ui = document.getElementById("urnotalone");
-    if (ui.style.display == "none") {
-        ui.style.display = "block";
+    const teks = document.getElementById("urnotalone");
+    const gambar = document.getElementsByClassName("bg4");
+    if (teks.style.display == "none") {
+        teks.style.display = "block";
+        gambar.style.display = "block"
     } else {
-         ui.style.display = "none";
+         teks.style.display = "none";
+         gambar.style.display = "none"
     }
 
 }
