@@ -21,7 +21,7 @@ body{
     left: -10px;
     /* max-height: calc(340px*640px);  
     max-width: calc(340px*640px); */
-    background-image: url();
+    background-image: url(tsuki.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -71,26 +71,6 @@ body{
 
 } 
 
-.bg4{
-    position: absolute;
-
-    width: 110%;
-    height: 70vh;
-    top: -40px;
-
-    left: 10px;
-    /* max-height: calc(340px*640px);  
-    max-width: calc(340px*640px); */
-    background-image: url(thumbs-up.jpg );
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    scale: 110%;
-    filter: brightness(40%);
-    margin-top: 560vh;
-    margin-bottom: 100%;
-
-} 
 
 
 
@@ -119,9 +99,33 @@ body{
     max-width: 5vh;
 }
 
-.urnotalone p{
+.urnotalone {
     position: fixed;
-    margin-top: 500vh;
-    font-size: 30px;
+    position: 50%;
+    font-size: 20px;
     color: white;
+    stroke-width: 10px black;
+}
+
+.stiker{
+    background-image: url("thumbs-up.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 47%;
+    min-height: 47vh;
+    position:fixed;
+    margin-top: 31vh;
+    margin-left: 7vh;
+    margin-right: 7vh;
+    font-size: 4vh;
+    transition: all 1s ease-in-out;
+    
+}
+
+.stiker p{
+    color: rgb(255, 255, 255);
+    letter-spacing: 1.3px;
+    -webkit-text-stroke: 1.2px rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
