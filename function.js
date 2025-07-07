@@ -1,10 +1,11 @@
 function tampikanui(pisanggoreng) {
     const teks = document.getElementById("urnotalone");
+    
+    teks.classList.remove("hidden");
 
-    if (teks.style.display == "none") {
-        teks.style.display = "block";
-    } else {
-         teks.style.display = "none";
-    }
 
+
+    setTimeout(() => {
+        teks.classList.add("hidden");
+    }, 500)
 }
