@@ -7,5 +7,5 @@ function tampikanui(pisanggoreng) {
 
     setTimeout(() => {
         teks.classList.add("hidden");
-    }, 500)
+    }, 4000)
 }

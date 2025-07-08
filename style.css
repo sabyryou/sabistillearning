@@ -71,6 +71,26 @@ body{
 
 } 
 
+.bg4{
+    position: absolute;
+
+    width: 110%;
+    height: 100vh;
+    top: -40px;
+
+    left: 10px;
+    /* max-height: calc(340px*640px);  
+    max-width: calc(340px*640px); */
+    background-image: url(tsuki2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    scale: 110%;
+
+    margin-top: 390vh;
+    margin-bottom: 100%;
+
+} 
 
 
 
@@ -133,6 +153,7 @@ body{
 .stiker p{
     color: rgb(255, 255, 255);
     letter-spacing: 1.3px;
-    -webkit-text-stroke: 1.2px rgb(0, 0, 0);
+    
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-stroke: 1px black ;
 }
